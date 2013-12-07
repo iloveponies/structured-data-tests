@@ -315,7 +315,7 @@
     (books->string [cities])
       => "1 book. The City and the City, written by China Miéville (1972 - )."
     (books->string [little-schemer, cities, wild-seed])
-      => #"3 books. The Little Schemer, written by (Daniel Friedman \(1944 - \), Matthias Felleisen|Matthias Felleisen, Daniel Friedman \(1944 - \)). The City and the City, written by China Miéville \(1972 - \). Wild Seed, written by Octavia E. Butler \(1947 - 2006\).")
+      => "3 books. The Little Schemer, written by (Daniel Friedman \(1944 - \), Matthias Felleisen|Matthias Felleisen, Daniel Friedman \(1944 - \)). The City and the City, written by China Miéville \(1972 - \). Wild Seed, written by Octavia E. Butler \(1947 - 2006\).")
 
   (facts "books-by-author" {:exercise 30
                             :points 1}
